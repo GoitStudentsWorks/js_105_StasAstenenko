@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="The world's best Fullstack developer, Lloyd Jefferson, is at your service."
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/js_105_StasAstenenko/assets/favicon-4c7074c1.ico"
+      sizes="any"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lloyd Jefferson</title>
+    
+    <script type="module" crossorigin src="/js_105_StasAstenenko/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_105_StasAstenenko/assets/vendor-6442acc6.js">
+    <link rel="stylesheet" href="/js_105_StasAstenenko/assets/vendor-54d4eae2.css">
+    <link rel="stylesheet" href="/js_105_StasAstenenko/assets/index-a0d59a6e.css">
+  </head>
+  <body>
+    <header class="header"><div class="header-container">
+  <a class="header-logo" href="./">
+    <img class="header-img" src="./img/header-img/image-1x.jpg " alt="guy" width="80" height="80" srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAFAAUAMBIgACEQEDEQH/xAAyAAABBAMBAAAAAAAAAAAAAAAGAQIFBwADBAgBAAMBAQAAAAAAAAAAAAAAAAECAwQA/9oADAMBAAIQAxAAAAAA9BrKAsZsAlcrh6oMIaDzppg8ecxQfo+MrEiRzW5Kys0bjeHmuGNhoEJyELO43xyasHc3Ebsg5qNSnQFTTs2wLLK8t4jpaqacPSKgVP0S9K7Bl4dh1XelKXHdfjQzVvSiVNbJTyvGaN1pcbcxW2Y13BuIvFLLrVoP/8QALxAAAgEEAQIEBQMFAQAAAAAAAQIDAAQFESEGEhAxMkEHIlFScRMUYRUgNGKSgf/aAAgBAQABPwDojohuo2mubmZorCJihKEd7yfQVi8JisPAYcdZRwKfURyze47mOyaPhdZC0teJZOfoKm6ksopFUxSEHyI7atb60vF3BKrfUe4/I8MphsXl4RFf2ccyj0k8Mvue1hyK606MPTxiubaVpbGVggLkd6P9DWExUOHxVljoTtYI9FvuY8s3JOtnwNdYdTSYoJb2wBmcf81jbi9vLpZbgNJEJR38d2yaH636krhQsRHaoPBX8VlJLqzljlSYh0bh1+RgP51XSuefK28sc/8AkQnTH7h4ZnFw5fF3lhMdLNHoN9rDlW4I3o+Jrq7FvPkY5VHJArD46K2MYaIAMQXP1I8qv7QaYxRjZB5rJ2kzBu/ZPPBroPH3EMt3O3EZQL/dlpof3Ou1neNBtR/tvXnRzCWqobnE3yjfrEYkUf8ABNX/AFvjEjd4ElkCEBtr2aJ9vmrJdSxpqWWAoZU7kVh6gfcVgMz+2xUUtxYXCxSy/LJGokUe3OuRR8T4ZXGG5ZJY3KEEF9e4TevKldHXkDRHlWbx0KfrzS23fAzh9Jre9Bdc6+lZuKynsGkuOxLhewQxc6Cr8wA4G9+9YGOWbFWatGFiD959ye07FGj4HwzN6LDFX10XCmOBypP3a4rD57HZm1S4tJVJ188e/njb6EVlmP7YsO0svpB8t1mBdm6CyXMJbtBYKDoA1YWwtLG3g+xAD4GmdERndgqqNlidACpuuelYZWibKISPtVmFX/xWxMJK2djNP9GchFrqHrPJ54rHL2xWvtCn3VBdXVjOJ7Wd4pB5Mh0asOuZZUjiyJ32n1CsZIepcyVt+39NQpkckAgA+wpuOPH4kdQTPc/0iByIogDPo+tqdSOfempW2Cu/5FbJHPnRqKWWF1kikZHU7DKSpH4IrH/EPqiyUIbpblB7Tr31gvijBczpBlrZIO46E0foH5BoMrqrowZWAIIOwQaurqW9LXcjFmlJZm/2PnUr0x5ryNb8jTeVNxqgN0RXR3XbYe0urO+JlhSJ3tv4ceUf4aoLhogV80PmKkKDlHDIw/8AR+aPgKHoNE7ah7Ux+Y+H/8QAHxEAAgICAgMBAAAAAAAAAAAAAQIAAxAREiEgIjFh/9oACAECAQE/AIx0I1rb+iI/KDF2uEKespVt9/MugdeJlnQ/ZRsk4CwallaWDsRKgg6xvwM//8QAHxEAAgIBBQEBAAAAAAAAAAAAAQIAAyEEEBESMSAi/9oACAEDAQE/ABFUseItK8ZBllXXzfTgmzA5xA/7moZOuPd67GqfssqI7AjyavqFUDYtmEkyq16zgx7msPLbcfAn/9k= 1x, data:image/jpeg;base64,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 2x" />
+  </a>
+  <div class="header-menu-container">
+    <a class="header-menu" href="#">Menu</a>
+    <nav class="header-nav">
+      <ul class="header-list">
+        <li class="header-items">
+          <a class="header-link" href="#about">About me</a>
+        </li>
+        <li class="header-items">
+          <a class="header-link" href="#projects">Projects</a>
+        </li>
+        <li class="header-items">
+          <a class="header-link" href="#benefits">Benefits</a>
+        </li>
+        <li class="header-items">
+          <a class="header-link" href="#section-faq">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <svg class="icon-burger" id="burger-icon" width="28" height="29">
+    <use xlink:href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-menu-burger"></use>
+  </svg>
+  <a class="standart-btn header-btn" href="#footer">Order the project</a>
+</div></header>
+    <main>
+      <section class="hero">
+    <div class="glass-effect"></div>
+    <div class="container">
+        <div class="box">
+            <h1 class="hero-title">Hello.<br>I’m Fullstack developer Lloyd Jefferson.</h1>
+            <ul class="hero-list">
+                <li class="hero-item"><a class="hero-link" href="https://www.instagram.com/goitclub/"
+                        target="_blank">IG</a></li>
+                <li class="hero-item"><a class="hero-link" href="https://www.youtube.com/c/GoIT" target="_blank">FB</a>
+                </li>
+                <li class="hero-item"><a class="hero-link" href="https://www.facebook.com/goITclub/"
+                        target="_blank">YT</a></li>
+                <li class="hero-item"><a class="hero-link" href="https://github.com/StasAstenenko/js-gurus"
+                        target="_blank">GH</a></li>
+                <li class="hero-item address"><a class="hero-link" href="mailto:lloydjefferson@gmail.com"
+                        target="_blank">lloydjefferson@gmail.com</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+      <!-- Section About me -->
+<section id="about" class="section-about">
+  <div class="container">
+    <div class="container-about">
+      <div class="container-about-text">
+        <h2 class="visually-hidden">About me</h2>
+        <p class="about-text">
+          I work with people all over the world to create impressive and
+          <span class="about-text-first">functional</span>
+          <span class="about-text-second">websites</span> that reflect each
+          client's unique personality.
+        </p>
+      </div>
+      <div class="container-about-img">
+        <picture>
+          <source
+            srcset="/js_105_StasAstenenko/assets/author-desk-45cf73ae.png 1x, /js_105_StasAstenenko/assets/author@2x-desk-fe850d64.png 2x"
+            media="(min-width: 1440px)"
+          />
+
+          <source
+            srcset="/js_105_StasAstenenko/assets/author-tab-74e3f2cc.png 1x, /js_105_StasAstenenko/assets/author@2x-tab-86ef41c6.png 2x"
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="/js_105_StasAstenenko/assets/author-mob-ac25dee1.png 1x, /js_105_StasAstenenko/assets/author@2x-mob-6b9b7994.png 2x"
+            media="(min-width: 375px)"
+          />
+
+          <img
+            src="/js_105_StasAstenenko/assets/author-desk-45cf73ae.png"
+            alt="Author Lloyd Jefferson"
+            class="author-img-photo"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <div class="ac-container-about">
+      <div class="ac ac-container-about-card">
+        <div class="ac-header ac-about-title">
+          <p class="ac-about-title-text">About me</p>
+          <button
+            type="button"
+            aria-label="Button Bottom"
+            class="ac-trigger ac-triger-btn-about"
+          >
+            <svg class="ac-about-svg" width="36" height="36">
+              <use href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-botton"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="ac-panel ac-panel-about">
+          <p class="ac-about-inform-text">
+            I am Lloyd Jefferson, a talented programmer with extensive expertise
+            in software development. I have an understanding of different
+            programming languages ​and technologies, always ready to improve my
+            skills. I always follow the latest trends and look for
+            unconventional, creative solutions to problems. I have a high level
+            of analytical skills and am able to effectively solve even the most
+            difficult tasks encountered on the way.
+          </p>
+          <p class="ac-about-inform-text">
+            Able to work both independently and in a team. I can effectively
+            cooperate with colleagues, exchanging ideas and finding optimal
+            solutions. Professional maturity allows you to calmly cope with
+            challenges and stressful situations, while maintaining a high
+            quality of work. I am always looking for opportunities for
+            self-improvement. I actively study new technologies and practices to
+            stay abreast of the latest innovations. I have a strong
+            understanding of various programming languages, frameworks and
+            architectural concepts that allow me to create efficient and
+            scalable software.
+          </p>
+        </div>
+      </div>
+
+      <div class="ac ac-container-about-card js-ac-about">
+        <div class="ac-header ac-about-title">
+          <p class="ac-about-title-text">Role</p>
+          <button
+            type="button"
+            aria-label="Button Bottom"
+            class="ac-trigger ac-triger-btn-about"
+          >
+            <svg class="ac-about-svg" width="36" height="36">
+              <use href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-botton"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel ac-panel-about">
+          <p class="ac-about-inform-text">Frontend development</p>
+          <p class="ac-about-inform-text">HeadlessCMS,Wordpress</p>
+          <p class="ac-about-inform-text">Blender(enjoy)</p>
+        </div>
+      </div>
+
+      <div class="ac ac-container-about-card js-ac-about">
+        <div class="ac-header ac-about-title">
+          <p class="ac-about-title-text">Education</p>
+          <button
+            type="button"
+            aria-label="Button Bottom"
+            class="ac-trigger ac-triger-btn-about"
+          >
+            <svg class="ac-about-svg" width="36" height="36">
+              <use href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-botton"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel ac-panel-about">
+          <p class="ac-about-inform-text">
+            2018 - 2019 / Frontend Development Diploma, GoIT IT School, New York
+          </p>
+          <p class="ac-about-inform-text">
+            2019 - 2020 / Advanced Web Development Certificate, GoIT IT School,
+            New York
+          </p>
+          <p class="ac-about-inform-text">
+            2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="stack">
+      <div class="about-swiper">
+        <ul class="swiper-wrapper swiper-wrapper-about">
+          <li class="swiper-slide swiper-slide-about">
+            <h3 class="description-about-swipper">HTML/CSS</h3>
+          </li>
+          <li class="swiper-slide swiper-slide-about">
+            <h3 class="description-about-swipper">JavaScript</h3>
+          </li>
+          <li class="swiper-slide swiper-slide-about">
+            <h3 class="description-about-swipper">React</h3>
+          </li>
+          <li class="swiper-slide swiper-slide-about">
+            <h3 class="description-about-swipper">Node. js</h3>
+          </li>
+          <li class="swiper-slide swiper-slide-about">
+            <h3 class="description-about-swipper">React Native</h3>
+          </li>
+          <li class="swiper-slide swiper-slide-about">
+            <h3 class="description-about-swipper">Soft skills</h3>
+          </li>
+          <li class="swiper-slide swiper-slide-about">
+            <h3 class="description-about-swipper">Angular</h3>
+          </li>
+          <li class="swiper-slide swiper-slide-about">
+            <h3 class="description-about-swipper">SQL</h3>
+          </li>
+        </ul>
+      </div>
+      <div class="swiper-button-next about-swipper-btn js-sw-button">
+        <svg class="swiper-about-svg" width="28" height="28">
+          <use href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-narrow-right"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section id="benefits">
+  <div class="container">
+    <div class="benefits-container">
+      <h2 class="benefits-title">Benefits of working with me</h2>
+      <div class="ben-list-bnt-cont">
+        <ul class="benefits-list">
+          <li class="benefits-item">
+            <div class="benefits-icon">
+              <svg  width="24" height="24">
+                <use href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-user-01" />
+              </svg>
+            </div>
+            <div class="ben-desc-list">
+              <h3 class="ben-list-title">Expertise</h3>
+              <p class="benefits-description">
+                As a highly experienced developer, I have deep knowledge of
+                programming and website development.
+              </p>
+            </div>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-icon">
+              <svg  width="24" height="24">
+                <use href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-message-chat-circle" />
+              </svg>
+            </div>
+            <div class="ben-desc-list">
+              <h3 class="ben-list-title">Communication</h3>
+              <p class="benefits-description">
+                Understanding your needs and wants is my priority and I am
+                always open to discussions and corrections.
+              </p>
+            </div>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-icon">
+              <svg  width="24" height="24">
+                <use href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-brush-01" />
+              </svg>
+            </div>
+            <div class="ben-desc-list">
+              <h3 class="ben-list-title">Art</h3>
+              <p class="benefits-description">
+                Thanks to my creative nature, I am ready to accept challenges
+                and help you bring your ideas to life.
+              </p>
+            </div>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-icon">
+              <svg  width="24" height="24">
+                <use href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-hourglass-02" />
+              </svg>
+            </div>
+            <div class="ben-desc-list">
+              <h3 class="ben-list-title">Urgent execution</h3>
+              <p class="benefits-description">
+                I understand how important time is to you. Ready to work quickly
+                and efficiently, without reducing the quality of work.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <div class="benefits-btn"><a class="benefits-link" href="#footer">Order the project</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="projects" id="projects">
+    <div class="container box-prj">
+            <h2 class="title-projects">projects</h2>
+        <div class="swiper-container projects-swiper">
+            <ul class="swiper-wrapper swiper-wrapper-projects">
+            <li class="main-box-prj swiper-slide">
+                <div class="first-box-prj">
+                    <ul class="list-prj">
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#react</a>
+                        </li>
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#js</a>
+                        </li>
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#node js</a>
+                        </li>
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#git</a>
+                        </li>
+                    </ul>
+                    <h3 class="main-prj-title">Programming Across Borders: Ideas, Technologies, Innovations</h3>
+                    <button type="button" class="prj-btn">See project</button>
+
+                </div>
+                <div class="second-box-prj">
+    
+                    <picture>
+                        <source srcset="/js_105_StasAstenenko/assets/first-photo-large@1x-min-19aa4529.png 1x, /js_105_StasAstenenko/assets/first-photo-large@2x-min-7db53076.png 2x"
+                            media="(min-width: 768px)" />
+                        <source srcset="/js_105_StasAstenenko/assets/first-photo-small@1x-min-532760bd.png 1x, /js_105_StasAstenenko/assets/first-photo-small@2x-min-e1331e19.png 2x"
+                            media="(min-width: 375px)" />
+                        <img src="/js_105_StasAstenenko/assets/first-photo-large@1x-min-19aa4529.png" alt="mobile project" />
+                    </picture>
+                        
+                </div>
+
+            </li>
+            <li class="main-box-prj swiper-slide">
+                <div class="first-box-prj">
+                    <ul class="list-prj">
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#react</a>
+                        </li>
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#js</a>
+                        </li>
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#node js</a>
+                        </li>
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#git</a>
+                        </li>
+                    </ul>
+                    <h3 class="main-prj-title">Programming Across Borders: Ideas, Technologies, Innovations</h3>
+                    <button type="button" class="prj-btn">See project</button>
+            
+                </div>
+                <div class="second-box-prj">
+                    <picture>
+                        <source srcset="/js_105_StasAstenenko/assets/pet-large@1x-min-c16a9618.png 1x, /js_105_StasAstenenko/assets/pet-large@2x-min-5391f05e.png 2x" media="(min-width: 768px)" />
+                        <source srcset="/js_105_StasAstenenko/assets/pet-small@1x-min-4de62816.png 1x, /js_105_StasAstenenko/assets/pet-small@2x-min-0ab43878.png 2x" media="(min-width: 375px)" />
+                        <img src="/js_105_StasAstenenko/assets/pet-large@1x-min-c16a9618.png" alt="lover of pet" />
+                    </picture>
+                </div>
+            
+            </li>
+            <li class="main-box-prj swiper-slide">
+                <div class="first-box-prj">
+                    <ul class="list-prj">
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#react</a>
+                        </li>
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#js</a>
+                        </li>
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#node js</a>
+                        </li>
+                        <li class="list-prj-item">
+                            <a href="#" class="list-prj-link">#git</a>
+                        </li>
+                    </ul>
+                    <h3 class="main-prj-title">Programming Across Borders: Ideas, Technologies, Innovations</h3>
+                    <button type="button" class="prj-btn">See project</button>
+            
+                </div>
+                <div class="second-box-prj">
+                    <picture>
+                        <source srcset="/js_105_StasAstenenko/assets/form-large@1x-min-e9430df4.png 1x, /js_105_StasAstenenko/assets/form-large@2x-min-e1d9a3c3.png 2x" media="(min-width: 768px)" />
+                        <source srcset="/js_105_StasAstenenko/assets/form-small@1x-min-0bdc9154.png 1x, /js_105_StasAstenenko/assets/form-small@2x-min-ce0de6d2.png 2x" media="(min-width: 375px)" />
+                        <img src="/js_105_StasAstenenko/assets/form-large@1x-min-e9430df4.png" alt="a form for registration" />
+                    </picture>
+            
+            
+                </div>
+            
+            </li>
+            </ul>
+            
+        </div>
+        <div class="swiper-buttons">
+            <button class="btn-for-swiper-prev" type="button">
+                <svg class="prj-svg">
+                    <use href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-narrow-left"></use>
+                </svg>
+            </button>
+            <button class="btn-for-swiper-next" type="button">
+                <svg class="prj-svg">
+                    <use href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-narrow-right"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+</section>
+      <section class="section fqa" id="section-faq">
+  <div class="container fqa-container">
+    <h2 class="faq-main-title">FAQ</h2>
+    <div class="faq-wrapper">
+      <ul class="faq-list accordion-container">
+        <li class="faq-item ac">
+          <h3 class="faq-title ac-header">
+            <button type="button" class="faq-btn ac-trigger">
+              What programming languages ​​are most often used in your
+              project?<svg class="faq-svg" width="20" height="20">
+                <use  href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-botton"/>
+              </svg>
+            </button>
+          </h3>
+
+          <div class="ac-comment ac-panel">
+            <p class="faq-paragraph ac-text ">
+              In the field of web development, there are various technologies
+              and programming languages. Typically, this includes a combination
+              of frontend (client side) and backend (server side) languages.
+            </p>
+          </div>
+        </li>
+        <li class="faq-item ac">
+          <h3 class="faq-title ac-header">
+            <button type="button" class="faq-btn ac-trigger">
+              What are the deadlines for the project?<svg class="faq-svg" width="20" height="20">
+                <use  href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-botton"/>
+              </svg>
+            </button>
+          </h3>
+
+          <div class="ac-comment ac-panel">
+            <p class="faq-paragraph ac-text">
+              The terms of project implementation depend to a large extent on a
+              number of factors, such as the scope of the project, its
+              complexity, and the availability of resources. Determining exact
+              deadlines is a difficult task, and it usually occurs during the
+              planning phase of the project.
+            </p>
+          </div>
+        </li>
+        <li class="faq-item ac">
+          <h3 class="faq-title ac-header">
+            <button type="button" class="faq-btn ac-trigger">
+              What payment methods do you accept?<svg class="faq-svg" width="20" height="20">
+                <use  href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-botton"/>
+              </svg>
+            </button>
+          </h3>
+
+          <div class="ac-comment ac-panel">
+            <p class="faq-paragraph ac-text">
+              Payment through credit and debit cards such as Visa, MasterCard,
+              specialized electronic payment systems such as PayPal, as well as
+              payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+            </p>
+          </div>
+        </li>
+        <li class="faq-item ac">
+          <h3 class="faq-title ac-header">
+            <button type="button" class="faq-btn ac-trigger">
+              How can I contact you?<svg class="faq-svg" width="20" height="20">
+                <use  href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-botton"/>
+              </svg>
+            </button>
+          </h3>
+
+          <div class="ac-comment ac-panel">
+            <p class="faq-paragraph ac-text">
+              In the field of web development, there are various technologies
+              and programming languages. Typically, this includes a combination
+              of frontend (client side) and backend (server side) languages.
+            </p>
+          </div>
+        </li>
+        <li class="faq-item ac">
+          <h3 class="faq-title ac-header">
+            <button type="button" class="faq-btn ac-trigger">
+              Do you provide advice or support?<svg class="faq-svg" width="20" height="20">
+                <use  href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-botton"/>
+              </svg>
+            </button>
+          </h3>
+
+          <div class="ac-comment ac-panel">
+            <p class="faq-paragraph ac-text">
+              The terms of project implementation depend to a large extent on a
+              number of factors, such as the scope of the project, its
+              complexity, and the availability of resources. Determining exact
+              deadlines is a difficult task, and it usually occurs during the
+              planning phase of the project.
+            </p>
+          </div>
+        </li>
+        <li class="faq-item ac">
+          <h3 class="faq-title ac-header">
+            <button type="button" class="faq-btn ac-trigger">
+              What does the process of developing a software product look like
+              from idea to implementation?
+              <svg class="faq-svg" width="20" height="20">
+                <use  href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-botton"/>
+              </svg>
+            </button>
+          </h3>
+
+          <div class="ac-comment ac-panel">
+            <p class="faq-paragraph ac-text">
+              Payment through credit and debit cards such as Visa, MasterCard,
+              specialized electronic payment systems such as PayPal, as well as
+              payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+   
+
+    
+
+    
+
+
+
+    
+  
+
+
+      <section class="section-covers">
+    <div class="container">
+        <h2 class="visually-hidden">Projects I can brag about</h2>
+        <ul class="covers-ul">
+        </ul>
+    </div>
+</section>
+      <section id="reviews">
+  <div class="container">
+    <h2>Reviews</h2>
+    <div class="swiper swiper-review">
+      <ul class="swiper-wrapper swiper-wrapper-reviews"></ul>
+    </div>
+    <div class="button-container button-container-reviews">
+      <button class="swiper-button-prev-reviews">
+        <svg class="icon-reviews icon-reviews-one" width="32" height="32">
+          <use href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-narrow-left"></use>
+        </svg>
+      </button>
+      <button class="swiper-button-next-reviews">
+        <svg class="icon-reviews" width="32" height="32">
+          <use
+            href="/js_105_StasAstenenko/assets/symbol-defs-fb878d41.svg#icon-arrow-narrow-right"
+          ></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer><section class="footer" id="footer">
+    <div class="container work-together section-pb">
+        <div class="title-work-together header-2">
+            <picture class="title-image">
+                <source srcset="
+                https://raw.githubusercontent.com/StasAstenenko/js-gurus/main/src/img/work-together/image_tabl_desk_1x.webp 1x,
+                https://raw.githubusercontent.com/StasAstenenko/js-gurus/main/src/img/work-together/image_tabl_desk_2x.webp 2x
+            " media="(min-width: 1440px)" type="image/webp" />
+                <source srcset="
+                https://raw.githubusercontent.com/StasAstenenko/js-gurus/main/src/img/work-together/image_mobile_1x.webp 1x,
+                https://raw.githubusercontent.com/StasAstenenko/js-gurus/main/src/img/work-together/image_mobile_2x.webp 2x
+            " media="(max-width: 1139px)" type="image/webp" />
+                <img class="img-work-together" src="/js_105_StasAstenenko/assets/image_mobile_1x-e8f7bfc2.jpg" alt="Man's photo"
+                    width="70" height="70" />
+            </picture>
+            <h2 class="footer-title">
+                Let’s <span class="text-decoration-red"> work</span>
+            </h2>
+        </div>
+            <h2 class="footer-title-second">together</h2>
+        <form class="submit-form js-submit-form">
+            <div class="input-wrapper">
+                <input type="text" class="input" name="userEmail" id="user-email" placeholder="clients@gmail.com" />
+                <span class="valid-email-text">Success!</span>
+                <span class="invalid-email-text">Invalid email, try again!</span>
+            </div>
+            <div class="input-wrapper">
+                <input type="text" class="input" name="userComments" id="user-comments" placeholder="comments" />
+                <span class="invalid-comments-text">This field is required!</span>
+            </div>
+            <button class="send-btn" id="openModal1Btn" type="submit">Send</button>
+        </form>
+        <div class="contacts contacts-list">            
+                <div class="contacts-item">
+                    <a href="mailto:lloydjefferson@gmail.com" class="contacts-link">lloydjefferson@gmail.com</a>
+                </div>
+                <div class="contacts-item">
+                    <a href="tel:+3801111111111" class="contacts-link">+380 11 1111 11 11</a>
+                </div>            
+        </div>
+    </div>
+</section>
+</footer>
+    <!-- <button id="openModal1Btn">Open Modal 1</button> -->
+
+
+
+<!-- =================  model1  ========================== -->
+
+<div id="modal1" class="modal-sexsion">
+
+  <div class=" modal-blok">
+
+    <div class="modal-close">
+      <span class="close-btn-futer" id="closeModal1Btn">&times;</span>
+    </div>
+
+
+
+    <div class="modal-content">
+      <h2 class="modal-h2">Thank you for your interest in cooperation!</h2>
+      <p class="modal-p">The manager will contact you shortly to discuss further details and opportunities for
+        cooperation. Please stay in touch.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ***************** modal2 ***************** -->
+
+<div id="modal2" class="modal-heder">
+
+  <div class="section-two">
+
+    <div class="modal-close-model">
+      <span class="close-btn" id="closeModal2Btn">&times;</span>
+    </div>
+
+
+    <div class="header-modal-wraper">
+      <nav class="header-modal-navigation">
+        <ul class="header-modal-list">
+          <li class="header-modal-titles"><a class="nav-link" href="#about">About me</a></li>
+          <li class="header-modal-titles"><a class="nav-link" href="#benefits">Benefits</a></li>
+          <li class="header-modal-titles"><a class="nav-link" href="#footer">Projects</a></li>
+          <li class="header-modal-titles"><a class="nav-link" href="#section-faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+    <div class="modal-benefits-btn">
+      <a class="benefits-link" href="#footer">Order the project</a>
+    </div>
+  </div>
+</div>
+
+    
+  </body>
+</html>
